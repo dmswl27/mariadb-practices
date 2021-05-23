@@ -1,0 +1,20 @@
+desc book;
+desc cart;
+desc customer;
+desc category;
+desc order_table;
+desc bookmall.order;
+insert into book values(?, ?, ?, ?);
+select book_num, title, price from book;
+select * from category;
+select * from book;
+select * from bookmall.order;
+insert into bookmall.order values(null, ?, ?, ? , ?);
+select * from member;
+select * from order_table;
+select * from order_table;
+UPDATE order_table SET book_count = (bool_count-1) WHERE book_num = ?;
+UPDATE bookmall.order SET  WHERE member_num = ?;
+insert into cart values(?, ?, ?);
+insert into member values(null, ?, ?, ? , ?);
+insert into order_table values(?, ?, ? , ?)
